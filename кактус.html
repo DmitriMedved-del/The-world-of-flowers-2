@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>кактус</title>
+		<meta charset="UTF-8">
+		<link rel="icon" type="image/x-icon" href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTk5F4DRJAumXVRZigSCgv-QfCMhBI8XDSzga4fEQ5fETbCCpDRODj7gMri3A&s">
+		<meta name="viewport" content="width=device-width, maximum-scale=1.0, minimum-scale=1.0">
+		<link rel="stylesheet" href="кактус.css">
+		<script>
+function windowo() {
+ window.location.replace("купить.html");
+}
+</script>
+    </head>
+    <body>
+		 <div id="mySidenav" class="sidenav">
+			<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+			<a href="главная.html">главная</a>
+			<details>
+            <summary><a>цветы</a></summary>
+            <a href="ромашка.html">ромашка полевая</a>
+			<a href="кактус.html">кактус</a>
+			<a href="тюльпаны.html">тюльпаны</a>
+			<a href="розы.html">розы</a>
+			</details>
+			<a href="пароль.html">только для админа</a>
+			<a href="оценка сайта.html">оценка сайта</a>
+			<a href="связь с админом.html">связь с админом</a>
+            </ul>
+		</div>
+			<div class="header">
+			<a href="главная.html" class="logo">&#10047; МИР ЦВЕТОВ</a>
+			<div class="header-right">
+				<span style="font-size:30px; cursor:pointer" onclick="openNav()">&#9776</span>
+			</div>
+		</div>
+		<div id="myDIV">
+            <img src="https://i.ytimg.com/vi/ynQHTzsu2tU/hqdefault.jpg" alt="Кактус" style="float:left; margin-right:10px;" />
+            <h1>кактус</h1>
+            Цена:150₽<br/>
+			Кактус - это уникальный представитель вечнозеленых растений. Существует более 3000 видов растения.
+			В высоту кактусы достигают 10 метров и живут в среднем 500 лет.
+			Покрыт он колючками и шипами длиной до 12 сантиметров.
+			По всему стволу есть восковой налет и волоски.
+			Растение не имеет листьев, и состоит из толстого, зеленого стебля разной формы. 
+			Они могут быть гладкими и ребристыми, все зависит от разновидности растения.<br/>
+			<button onclick="windowo()" class="button button3">купить</button><br>
+		</div>
+			<script>
+				function openNav() {
+						document.getElementById("mySidenav").style.width = "250px";
+					}
+				function closeNav() {
+					document.getElementById("mySidenav").style.width = "0";
+				}
+			</script>
+    </body>
+</html>
